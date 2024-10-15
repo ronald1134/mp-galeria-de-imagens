@@ -38,7 +38,7 @@ Siga o layout da galeria apresentado na imagem, mas fique à vontade para usar s
 #### HTML
 
 - Criação de uma estrutura semântica de página.
-- Uso de elementos como `<nav>`, `<section>` para organizar o conteúdo.
+- Uso de elementos como `<nav>` e `<section>` para organizar o conteúdo.
 
 #### CSS
 
