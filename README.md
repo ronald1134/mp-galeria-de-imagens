@@ -17,16 +17,19 @@ Certifique-se de ter as imagens que deseja exibir na galeria. A estrutura básic
 - Abaixo da barra lateral, crie um footer para conter as redes sociais.
 
 ### Página Home
-
+- Crie uma seção que contenha uma imagem de fundo e ao centro com o texto `Boas vindas ao meu portfólio`;
+- Acrescente um botão abaixo da descrição, com o texto `ver mais` para levar para a página de fotos.
+  
 ### Página Fotos
-- Ao lado da barra lateral, adicione a galeria de imagens.
+- Ao lado da barra lateral, adicione a galeria de imagens;
 - Adicione um botão `Ver mais` que, ao ser clicado, carrega mais imagens na galeria utilizando JavaScript.
 
 ### Página Bio
-
+- Faça uma seção que contenha uma imagem de fundo e ao centro um texto de descrição;
+- Insira um botão abaixo da descrição para levar para a página de fotos.
 
 ### Página Contato
-
+- Crie uma seção que contenha uma imagem de fundo e ao centro, adicione email e telefone para contato;
 
   👀 **Dicas:**
 	> - Utilize CSS Grid ou Flexbox para organizar as imagens.
