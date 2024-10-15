@@ -11,11 +11,22 @@ Certifique-se de ter as imagens que deseja exibir na galeria. A estrutura básic
 
 ## 🔨 Requisitos
 
+### Para todas as páginas
 - Crie uma barra lateral que contenha um menu com `home`, `fotos`, `bio`, e `contato`.
-- Ao lado da barra lateral, adicione a galeria de imagens.
 - Garanta que a barra de navegação lateral contenha links para diferentes seções da página (Home, Fotos, Bio, Contato) e estilize-a de forma a ficar fixa na lateral da página.
 - Abaixo da barra lateral, crie um footer para conter as redes sociais.
+
+### Página Home
+
+### Página Fotos
+- Ao lado da barra lateral, adicione a galeria de imagens.
 - Adicione um botão `Ver mais` que, ao ser clicado, carrega mais imagens na galeria utilizando JavaScript.
+
+### Página Bio
+
+
+### Página Contato
+
 
   👀 **Dicas:**
 	> - Utilize CSS Grid ou Flexbox para organizar as imagens.
@@ -30,6 +41,7 @@ Certifique-se de ter as imagens que deseja exibir na galeria. A estrutura básic
 ## 🎨 Design Sugerido
 
 Siga o layout da galeria apresentado na imagem, mas fique à vontade para usar sua criatividade na disposição das imagens e na estilização.
+🔗 [Link do design](https://www.figma.com/community/file/1428063404796536640)
 
 ## 👉🏽 Sobre esse mini-projeto
 
