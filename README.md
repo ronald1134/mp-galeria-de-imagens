@@ -1,6 +1,6 @@
 # Galeria de Fotos Responsiva com HTML, CSS e JavaScript
 
-Este mini-projeto consiste em criar uma galeria de fotos responsiva utilizando apenas HTML, CSS e JavaScript, baseado no layout da página apresentada. A galeria terá uma barra de navegação lateral e um botão para carregar mais imagens. O objetivo é criar uma interface limpa e funcional, com foco na exibição das fotos.
+Este mini-projeto consiste em criar uma galeria de fotos utilizando apenas HTML, CSS e JavaScript, baseado no layout da página apresentada. A galeria terá uma barra de navegação lateral e um botão para carregar mais imagens. O objetivo é criar uma interface limpa e funcional, com foco na exibição das fotos.
 
 ## 🤓 Antes de começar
 
