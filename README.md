@@ -19,7 +19,6 @@ Certifique-se de ter as imagens que deseja exibir na galeria. A estrutura básic
 
   👀 **Dicas:**
 	> - Utilize CSS Grid ou Flexbox para organizar as imagens.
-	> - Defina media queries no CSS para garantir que a galeria fique responsiva em diferentes tamanhos de tela.
 	> - No JavaScript, utilize `appendChild()` para carregar dinamicamente mais imagens ao clicar no botão.
 
 ## 🔨 Desafio extra para quem quer ir além
