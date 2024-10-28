@@ -1,5 +1,3 @@
-# Galeria de Fotos Responsiva com HTML, CSS e JavaScript
-
 Este mini projeto consiste em criar uma galeria de fotos utilizando apenas HTML, CSS e JavaScript, baseado no layout da página apresentada. A galeria terá uma barra de navegação lateral e um botão para carregar mais imagens. O objetivo é criar uma interface limpa e funcional, com foco na exibição das fotos.
 
 ## 🤓 Antes de começar
@@ -19,7 +17,7 @@ Certifique-se de ter as imagens que deseja exibir na galeria. A estrutura básic
 ### Página Home
 - Crie uma seção que contenha uma imagem de fundo e ao centro com o texto `Boas vindas ao meu portfólio`;
 - Acrescente um botão abaixo da descrição, com o texto `ver mais` para levar para a página de fotos.
-  
+
 ### Página Fotos
 - Ao lado da barra lateral, adicione a galeria de imagens;
 - Adicione um botão `Ver mais` que, ao ser clicado, carrega mais imagens na galeria utilizando JavaScript.
@@ -31,9 +29,11 @@ Certifique-se de ter as imagens que deseja exibir na galeria. A estrutura básic
 ### Página Contato
 - Crie uma seção que contenha uma imagem de fundo e ao centro, adicione email e telefone para contato;
 
-  👀 **Dicas:**
-	> - Utilize CSS Grid ou Flexbox para organizar as imagens.
-	> - No JavaScript, utilize `appendChild()` para carregar dinamicamente mais imagens ao clicar no botão.
+
+>  👀 **Dicas:**
+>  
+> - Utilize CSS Grid ou Flexbox para organizar as imagens.
+> - No JavaScript, utilize `appendChild()` para carregar dinamicamente mais imagens ao clicar no botão.
 
 ## 🔨 Desafio extra para quem quer ir além
 
