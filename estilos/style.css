@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Darker Grotesque", sans-serif;
+    background-color: #000;
+}
+
+/*.darker-grotesque {
+font-family: "Darker Grotesque", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+}*/
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar h1 {
+    color: white;
+}
+.sidebar nav ul {
+    list-style-type: none;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar nav ul li a:hover {
+    color: #ff6347; /* Cor de hover */
+}
+
+
+.content {
+    margin-left: 220px; /* Espaço para a barra lateral */
+}
+
+section {
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.titulo {
+    font-size: 90px;
+
+}
+p {
+    font-size: 17px;
+    line-height: 1.4;
+    color: white;
+}
+
+
+.contact-section-bio {
+    background-image: url(assets/img/imagem12.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.contact-section-index {
+    background-image: url(assets/img/imagem19.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+ /* Crie um efeito de zoom nas fotos ao passar o mouse por cima utilizando apenas CSS ( */
+
+ .gallery {
+    width: 100%; /* Largura do container da imagem */
+    height: 100%;
+    overflow: hidden; /* Oculta a parte da imagem que transbordar */
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para novas linhas */
+    gap: 5px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+}
+
+.gallery img {
+    width: calc(25% - 15px); /* Ajusta a largura das imagens para 4 por linha com espaço entre elas */
+    transition: transform 0.5s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .gallery img {
+        width: calc(50% - 15px); /* Ajusta para 2 imagens por linha em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery img {
+        width: calc(100% - 15px); /* Ajusta para 1 imagem por linha em telas muito pequenas */
+    }
+}
+/*contato*/
+
+
+.contact-section {
+    background-image: url(assets/img/imagem14.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d61612;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: beige;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gallery-image {
+    width: calc(25% - 15px);
+    margin: 10px;
+    object-fit: cover;
+}
